@@ -26,7 +26,7 @@
     "build-db-schema": "prisma db pull",
     "build-db-client": "prisma generate",
     "update-tracker": "node scripts/update-tracker.js",
-    "update-db": "prisma migrate resolve --applied '06_session_data' && prisma migrate deploy",
+    "update-db": "prisma migrate resolve --applied '06_session_data'",
     "check-db": "node scripts/check-db.js",
     "check-env": "node scripts/check-env.js",
     "copy-db-files": "node scripts/copy-db-files.js",
