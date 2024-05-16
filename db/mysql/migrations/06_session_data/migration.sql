@@ -18,5 +18,3 @@
 
 -- CreateIndex
 -- CREATE INDEX `session_data_website_id_created_at_data_key_idx` ON `session_data`(`website_id`, `created_at`, `data_key`);
-
-CREATE TABLE example_table ( 'kpow' INT );
