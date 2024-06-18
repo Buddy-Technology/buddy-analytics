@@ -6,9 +6,9 @@ frontend:
                 - 'yarn install'
         build:
             commands:
-                - 'yarn run build'
+                - 'npm run build'
     artifacts:
-        baseDirectory: /.next
+        baseDirectory: '.next'
         files:
             - '**/*'
     cache:
