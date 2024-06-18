@@ -1,5 +1,9 @@
 [functions]
 included_files = ["node_modules/.geo/**"]
 
+[build]
+  command = "npm run build"
+  publish = "out"
+
 [[plugins]]
 package = "@netlify/plugin-nextjs"
