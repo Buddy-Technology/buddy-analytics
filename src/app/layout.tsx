@@ -24,7 +24,7 @@ export default function ({ children }) {
         <meta name="robots" content="noindex,nofollow" />
       </head>
       <body>
-        <Providers>{children}</Providers>
+       {/* <Providers>{children}</Providers> */}
       </body>
     </html>
   );
