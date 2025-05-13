@@ -26,7 +26,8 @@ export function Page({
     return <Loading position="page" />;
   }
 
-  return <div className={classNames(styles.page, className)}>{children}</div>;
+  // return <div className={classNames(styles.page, className)}>{children}</div>;
+  return <div className={classNames(styles.page, className)}>boom</div>
 }
 
 export default Page;
